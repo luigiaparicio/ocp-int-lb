@@ -1,5 +1,13 @@
-<?php
+<html>
+  <head>
+    <title>Openshift Internal Load Balancing</title>      
+  </head>
+   
+  <body>
 
-echo "Pod's name: " .getHostName()
-
-?>
+     <?php
+     echo "Pod's name: " .getHostName()
+     ?>
+   
+  </body>
+</html>
