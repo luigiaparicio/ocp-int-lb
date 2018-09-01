@@ -5,9 +5,14 @@
    
   <body>
 
-     <?php
-     echo "Pod's name: " .getHostName()
-     ?>
+    <?php
+    $hostname = getHostName()
+    $ip = gethostbyname($hostname);
+    
+    echo "Hostname: " $hostname
+    echo "IP: " $ip
+    
+    ?>
    
   </body>
 </html>
