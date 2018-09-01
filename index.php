@@ -9,8 +9,7 @@
     $hostname = getHostName();
     $ip = gethostbyname($hostname);
     
-    echo "Hostname: $hostname";
-    echo "IP: $ip";
+    echo "Hostname: $hostname - IP: $ip" ;
     
     ?>
    
